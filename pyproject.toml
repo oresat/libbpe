@@ -16,26 +16,11 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Topic :: Software Development :: Embedded Systems",
-    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Scientific/Engineering :: Image Processing",
 ]
 dependencies = [
-    "canopen",
-    "flask",
-    "loguru",
-    "natsort",
-    "psutil",
-    "oresat-configs",
+    "pybind11"
 ]
-dynamic = ["version"]
-
-[tool.setuptools.dynamic]
-version = {attr = "olaf.__version__"}
-
-[tool.setuptools.packages.find]
-exclude = ["docs*", "tests*"]
-
-[tool.setuptools.package-data]
-"*" = ["*.html", "*.ico"]
 
 [tool.black]
 line_length = 100
@@ -76,7 +61,7 @@ path = "tests/*"
 ignore = "W0212"
 
 [[tool.mypy.overrides]]
-module = "canopen,oresat_configs,psutil"
+module = "Pillow,opencv-python,numpy"
 ignore_missing_imports = true
 
 [tool.isort]

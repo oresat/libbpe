@@ -1,4 +1,4 @@
-// ```This global.h file DOES NOT have bit colons for any struct members.
+// This global.h file DOES NOT have bit colons for any struct members.
 //
 // main header file for source code that has been altered
 // -bit colons were removed due to compilation issues

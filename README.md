@@ -1,6 +1,6 @@
-Kyle Klein for OreSat - September 2023
-oresat.org - oresat@pdx.edu
-kleinky@pdx.edu 
+Kyle Klein for OreSat -
+oresat.org - oresat@pdx.edu -
+kleinky@pdx.edu - September 2023
 
 
 This program has been adapted from the University of Nebraska-Lincoln's 
